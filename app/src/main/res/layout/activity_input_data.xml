@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.InputDataActivity">
+
+    <!--toolbar-->
+    <RelativeLayout
+        android:id="@+id/cprRl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rect01">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Completed Products"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery In Progress"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/colorGreen"/>
+
+    <Button
+        android:id="@+id/analysisBtn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Press to Input Items Ordered"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"/>
+</LinearLayout>
